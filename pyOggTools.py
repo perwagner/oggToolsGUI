@@ -27,7 +27,7 @@ class App:
         self.lab_source.grid(row = 1, column = 1)
 
         Label(frame, text = "Dest. audio filename:", bg = self.label_bg_color, width = 20, anchor = W).grid(row = 2, column = 0)
-        Label(frame, text = "Dest. git video filename:", bg = self.label_bg_color, width = 20, anchor = W).grid(row = 3, column = 0)
+        Label(frame, text = "Dest. video filename:", bg = self.label_bg_color, width = 20, anchor = W).grid(row = 3, column = 0)
         self.lab_dest_audio = Label(frame, text = self.dest_audio_file, bg = self.label_bg_color, width = 20, anchor = W)
         self.lab_dest_audio.grid(row = 2, column = 1)
         self.lab_dest_video = Label(frame, text = self.dest_video_file, bg = self.label_bg_color, width = 20, anchor = W)
